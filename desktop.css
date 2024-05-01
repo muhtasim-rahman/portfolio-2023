@@ -1,0 +1,150 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*********************************/
+html{
+    max-width: 100%;
+}
+.card{
+    height: 700px;
+}
+/* navbar deign starts here */
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    padding: 5px 20px;
+    margin: 20px 3px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* navbar design ends here */
+
+/* profile design starts here  */
+
+.profile .top-weather-icon{
+    height: 120px;
+    width: auto;
+    right: 100px;
+    top: 20px;
+    transition: height 1.5s, transform 1.5s;
+}
+
+.profile .top-weather-icon:hover{
+    height: 150px;
+}
+
+.profile h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+.profile p{
+    color: gray;
+    font-size: 20px;
+    text-align: center justify;
+    width: 50%;
+}
+
+
+.profile .bottom-weather-icon{
+    height: 120px;
+    width: auto;
+    left: 100px;
+    bottom: 10px;
+    transition: height 1.5s, transform 1.5s;
+}
+
+.profile .bottom-weather-icon:hover{
+    height: 150px;
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* profile design ends here  */
+
+
+/* About me design starts here */
+.about-me-image img{
+    height: 250px;
+    width: 250px;
+    margin-top: 250px;
+    border: 5px solid white;
+}
+.about-me p{
+    font-size: 18px;
+}
+.download-cv {
+    font-size: 15px;
+}
+/* About me design ends here */
+
+/* Exprience design starts here */
+.exprience{
+    padding: 1% 5%;
+}
+/* Exprience design ends here */
+
+/* Contact design starts here */
+.message-me button{
+    padding: 8px 25px;
+    width: 150px;
+}
+.contact-icons{
+    position: relative;
+}
+.contact-icons .media-buttons{
+    position: absolute;
+    margin-top: 175px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Contact design ends here */
+
+/* Footer design starts here */
+
+.footer .menu{
+    display: inline;
+    margin-top: 12px;
+}
+.footer .menu a{
+    display: inline;
+    margin: 10px;
+}
+.copyright p{
+    color: white;
+}
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* Footer design ends here */
